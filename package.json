@@ -1,0 +1,50 @@
+{
+  "name": "webpack-koa2-middleware",
+  "version": "1.0.0",
+  "author": "Vincent @iyuq",
+  "description": "Offers a dev middleware for webpack, which arguments a live bundle to a directory for koa2",
+  "peerDependencies": {
+    "webpack": "1 || ^2.1.0-beta || ^2.2.0-rc.0"
+  },
+  "dependencies": {
+    "memory-fs": "~0.4.1",
+    "mime": "^1.3.4",
+    "path-is-absolute": "^1.0.0",
+    "range-parser": "^1.0.3"
+  },
+  "devDependencies": {
+    "codecov.io": "^0.1.6",
+    "eslint": "^3.4.0",
+    "file-loader": "^0.9.0",
+    "istanbul": "^0.4.5",
+    "koa": "^2.0.0-alpha.7",
+    "mocha": "^3.0.2",
+    "mocha-sinon": "^1.1.6",
+    "should": "^11.1.0",
+    "sinon": "^1.17.5",
+    "supertest": "^2.0.0",
+    "webpack": "^2.1.0-beta.22"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.x"
+  },
+  "homepage": "http://github.com/iyuq/webpack-koa2-middleware",
+  "main": "middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iyuq/webpack-koa2-middleware.git"
+  },
+  "files": [
+    "middleware.js",
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "eslint *.js lib test",
+    "posttest": "npm run -s lint",
+    "test": "mocha --full-trace --check-leaks",
+    "beautify": "npm run lint -- --fix",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "travis": "npm run cover -- --report lcovonly && npm run lint"
+  }
+}
