@@ -1,4 +1,4 @@
-# webpack-dev-middleware
+# webpack-koa2-middleware
 
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
@@ -167,3 +167,18 @@ app.use(ctx => {
 
 })
 ```
+
+[npm]: https://img.shields.io/badge/npm-1.0.1-brightgreen.svg
+[npm-url]: https://www.npmjs.com/package/webpack-koa2-middleware
+
+[node]: https://img.shields.io/node/v/webpack-koa2-middleware.svg
+[node-url]: https://nodejs.org
+
+[deps]: https://david-dm.org/iyuq/webpack-koa2-middleware/status.svg
+[deps-url]: https://david-dm.org/iyuq/webpack-koa2-middleware
+
+[tests]: http://img.shields.io/travis/iyuq/webpack-koa2-middleware.svg
+[tests-url]: https://travis-ci.org/iyuq/webpack-koa2-middleware
+
+[cover]: https://codecov.io/gh/iyuq/webpack-koa2-middleware/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/iyuq/webpack-koa2-middleware

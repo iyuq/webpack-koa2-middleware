@@ -2,7 +2,7 @@ sudo: false
 language: node_js
 node_js:
   - "6"
-  - "4"
+  - "7"
 script: npm run travis
 after_success:
   - cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js

@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=4.x"
+    "node": ">=6.x"
   },
   "homepage": "http://github.com/iyuq/webpack-koa2-middleware",
   "main": "middleware.js",
