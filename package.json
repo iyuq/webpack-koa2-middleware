@@ -1,6 +1,6 @@
 {
   "name": "webpack-koa2-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Vincent @iyuq",
   "description": "Offers a dev middleware for webpack, which arguments a live bundle to a directory for koa2",
   "peerDependencies": {

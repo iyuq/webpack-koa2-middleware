@@ -168,7 +168,7 @@ app.use(ctx => {
 })
 ```
 
-[npm]: https://img.shields.io/badge/npm-1.0.1-brightgreen.svg
+[npm]: https://img.shields.io/npm/v/webpack-koa2-middleware.svg
 [npm-url]: https://www.npmjs.com/package/webpack-koa2-middleware
 
 [node]: https://img.shields.io/node/v/webpack-koa2-middleware.svg
