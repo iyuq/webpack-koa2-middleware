@@ -177,8 +177,8 @@ app.use(ctx => {
 [deps]: https://david-dm.org/iyuq/webpack-koa2-middleware/status.svg
 [deps-url]: https://david-dm.org/iyuq/webpack-koa2-middleware
 
-[tests]: http://img.shields.io/travis/iyuq/webpack-koa2-middleware.svg
-[tests-url]: https://travis-ci.org/iyuq/webpack-koa2-middleware
+[test]: http://img.shields.io/travis/iyuq/webpack-koa2-middleware.svg
+[test-url]: https://travis-ci.org/iyuq/webpack-koa2-middleware
 
 [cover]: https://codecov.io/gh/iyuq/webpack-koa2-middleware/branch/master/graph/badge.svg
 [cover-url]: https://codecov.io/gh/iyuq/webpack-koa2-middleware
