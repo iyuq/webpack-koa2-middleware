@@ -3,6 +3,9 @@
         "node": true,
         "mocha": true
     },
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
     "rules": {
         "indent": [2, "tab", { "SwitchCase": 1 }],
         "brace-style": ["error", "1tbs"],

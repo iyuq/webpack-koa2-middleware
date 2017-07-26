@@ -1,6 +1,6 @@
 {
   "name": "webpack-koa2-middleware",
-  "version": "1.0.3",
+  "version": "2.0.3",
   "author": "Vincent @iyuq",
   "description": "Offers a dev middleware for webpack, which arguments a live bundle to a directory for koa2",
   "keywords": [
@@ -10,40 +10,34 @@
     "webpack-dev-middleware"
   ],
   "peerDependencies": {
-    "webpack": "1 || 2"
+    "webpack": "1 || 2 || 3"
   },
   "dependencies": {
-    "memory-fs": "~0.4.1",
-    "mime": "^1.3.4",
-    "path-is-absolute": "^1.0.0",
-    "range-parser": "^1.0.3"
+    "webpack-dev-middleware": "^1.11.0"
   },
   "devDependencies": {
     "codecov.io": "^0.1.6",
-    "eslint": "^3.4.0",
+    "eslint": "^4.3.0",
     "file-loader": "^0.9.0",
     "istanbul": "^0.4.5",
-    "koa": "^2.0.0-alpha.7",
+    "koa": "^2.3.0",
     "mocha": "^3.0.2",
-    "mocha-sinon": "^1.1.6",
     "should": "^11.1.0",
-    "sinon": "^1.17.5",
     "supertest": "^2.0.0",
-    "webpack": "^2.5.1"
+    "webpack": "^3.3.0"
   },
   "license": "MIT",
   "engines": {
     "node": ">=6.x"
   },
   "homepage": "http://github.com/iyuq/webpack-koa2-middleware",
-  "main": "middleware.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/iyuq/webpack-koa2-middleware.git"
   },
   "files": [
-    "middleware.js",
-    "lib/"
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint *.js lib test",
