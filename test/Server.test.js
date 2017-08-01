@@ -102,7 +102,7 @@ describe("Server", function() {
 		});
 	});
 
-	describe.skip("no index mode", function() {
+	describe("no index mode", function() {
 		before(function(done) {
 			app = new Koa();
 			const compiler = webpack(webpackConfig);

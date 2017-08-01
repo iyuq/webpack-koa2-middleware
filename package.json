@@ -13,7 +13,7 @@
     "webpack": "1 || 2 || 3"
   },
   "dependencies": {
-    "webpack-dev-middleware": "^1.11.0"
+    "webpack-dev-middleware": "^1.12.0"
   },
   "devDependencies": {
     "codecov.io": "^0.1.6",
