@@ -35,10 +35,10 @@ module.exports = function(compiler, options) {
 					ctx.set(field, value);
 				},
 				get statusCode() {
-					return ctx.response.status;
+					return ctx.status;
 				},
 				set statusCode(code) {
-					ctx.response.status = code;
+					ctx.status = code;
 				}
 			};
 			return instance(ctx.req, res, next);
